@@ -38,7 +38,7 @@ const SelectedProductsPanel: React.FC<SelectedProductsPanelProps> = ({
               <img 
                 src={item.product.image} 
                 alt={item.product.name}
-                className="w-10 h-10 object-cover rounded"
+                className="w-12 h-12 object-contain rounded bg-white"
               />
               <div className="min-w-0">
                 <p className="text-[10px] font-medium text-gray-800 truncate">{item.product.name}</p>
@@ -56,9 +56,9 @@ const SelectedProductsPanel: React.FC<SelectedProductsPanelProps> = ({
         
         <button
           onClick={onSendWhatsApp}
-          className="w-full bg-green-600 text-white py-1 px-2 rounded font-semibold flex items-center justify-center gap-1 hover:bg-green-700 transition-colors text-xs"
+          className="w-full bg-green-600 text-white py-2 px-4 rounded font-semibold flex items-center justify-center gap-2 hover:bg-green-700 transition-colors text-base"
         >
-          <MessageCircle size={12} />
+          <MessageCircle size={20} />
           WhatsApp
         </button>
       </div>

@@ -53,9 +53,9 @@ function App() {
 
   const handleSendWhatsApp = () => {
     const phoneNumber = '+212698570282';
-    const message = `Hello! I would like to order the following products:\n\n${selectedProducts.map((item, index) => 
+    const message = `السلام عليكم ، أريد هذه المنتجات التي قمت بطلبها من الموقع:\n\n${selectedProducts.map((item, index) => 
       `${index + 1}. ${item.product.name} x${item.quantity} - ${(item.product.price * item.quantity).toFixed(2)} MAD`
-    ).join('\n')}\n\nTotal: ${selectedProducts.reduce((sum, item) => sum + item.product.price * item.quantity, 0).toFixed(2)} MAD\n\nThank you!`;
+    ).join('\n')}\n\nTotal: ${selectedProducts.reduce((sum, item) => sum + item.product.price * item.quantity, 0).toFixed(2)} MAD\n\nشكرا جزيلا`;
     
     const whatsappUrl = `https://wa.me/${phoneNumber.replace('+', '')}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
