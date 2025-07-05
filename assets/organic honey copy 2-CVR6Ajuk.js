@@ -1,0 +1,1 @@
+const c="3",e="USB Type C cable",a=25.99,o="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/USB-C_plug%2C_focus_stacked.jpg/960px-USB-C_plug%2C_focus_stacked.jpg",t="Electronics",i={id:c,name:e,price:25.99,image:o,category:t};export{t as category,i as default,c as id,o as image,e as name,a as price};

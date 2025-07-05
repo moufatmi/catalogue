@@ -1,0 +1,1 @@
+const a="91",o="Chips",s=20,c="https://i5.walmartimages.com/seo/Lay-s-Classic-Potato-Chips-8-oz-Bag_f1852517-59f2-467f-b176-3ea1f2b098ae.a06a239111071c1595ab75cf3bf2323f.jpeg",e="Food",t={id:a,name:o,price:20,image:c,category:e};export{e as category,t as default,a as id,c as image,o as name,s as price};

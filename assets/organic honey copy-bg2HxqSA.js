@@ -1,0 +1,1 @@
+const c="7",e="pochette Labubu",t=25.99,a="https://unikase.ma/cdn/shop/files/16_f0f67511-a358-44ca-b6c0-4d26e47a1436.png?v=1749816309",o="Electronics",n={id:c,name:e,price:25.99,image:a,category:o};export{o as category,n as default,c as id,a as image,e as name,t as price};

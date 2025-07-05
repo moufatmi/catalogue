@@ -1,1 +1,0 @@
-const o="1",t="Organic Honey",n=25.99,e="https://www.24mantra.com/wp-content/uploads/2020/04/How-organic-honey-is-different-from-others.jpg",c="Food",a={id:o,name:t,price:25.99,image:e,category:c};export{c as category,a as default,o as id,e as image,t as name,n as price};
